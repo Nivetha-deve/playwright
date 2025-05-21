@@ -1,0 +1,21 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "headless": "npx playwright test",
+    "headed": "npx playwright test --headed",
+    "specific": "npx playwright test tests/Day2.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.12.0"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.50.1",
+    "xlsx": "^0.18.5"
+  }
+}
